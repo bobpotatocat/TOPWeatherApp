@@ -1,3 +1,7 @@
 #response-container {
   display: none;
 }
+
+#icon-response {
+  display: none;
+}
