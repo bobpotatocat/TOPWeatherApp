@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App!</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Get the weather!</h1>
+    </div>
+    <div class="main">
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter city/country"
+          name="search"
+        />
+        <button id="searchButton">search</button>
+      </div>
+      <div id="icon-response">
+        <img src="#" alt="" id="weather-icon" />
+      </div>
+      <div id="response-container">
+        <h2 id="city-name">london</h2>
+        <div id="description">cloudy</div>
+        <div id="temperature">23.3</div>
+        <div id="humidity">56%</div>
+      </div>
+    </div>
+  </body>
+</html>
